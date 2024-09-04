@@ -1,0 +1,45 @@
+html body {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    font-family: 'Comforta';
+    color: #EDDFDD;
+    background-color: #E8C5AE;
+}
+
+header {
+    background-color: #AEE8D8;
+    padding: 24px;
+    color: #4D0D05;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+}
+
+h3 {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.barraDeBusca {
+    padding: 24px;
+}
+
+.barraDeBusca input {
+    
+}
+
+.rodape {
+    background-color: #4D0D05;
+    padding: 24px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
