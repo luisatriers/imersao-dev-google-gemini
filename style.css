@@ -1,16 +1,18 @@
-html body {
-    height: 100%;
+html, body {
     margin: 0;
     text-align: center;
-    font-family: 'Comforta';
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #EDDFDD;
     background-color: #E8C5AE;
 }
 
 header {
-    background-color: #AEE8D8;
-    padding: 24px;
-    color: #4D0D05;
+    background-color:#F0FCFC;
+    padding: 16px;
+    color: #317F7A;
+    border-radius: 56px;
+    margin: 12px 96px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
@@ -18,13 +20,14 @@ h1 {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    font-size: 48px;
+    font-size: 64px;
 }
 
 h3 {
     font-family: "Julius Sans One", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
+    color: #cf7b6f;
 }
 
 .barraDeBusca {
@@ -32,14 +35,88 @@ h3 {
 }
 
 .barraDeBusca input {
+    border-radius: 16px;
+    padding: 8px 16px;
+    border-style:none;
+    margin: 0 96px;
+}
+
+.barraDeBusca input:focus-visible {
+    outline: 0;
+}
+
+.barraDeBusca button {
+    padding: 8px 16px;
+    border-radius: 16px;
+    border-style: none;
+    margin-left: 4px;
+    background-color: #4D0D05;
+    color:#EDDFDD;
+    border-width: 0;
+}
+
+.barraDeBusca button:hover {
+    background-color: #a7655c;
+}
+
+.resultados {
+
+}
+
+.item-resultado {
+    background-color: #EDDFDD;
+    color: #4D0D05;
+    margin: 24px 96px;
+    padding: 4px 24px;
+    border-radius: 24px;
+    text-align: justify;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagem-resultado {
+    padding: 24px 12px;
+}
+
+.imagem-resultado img{
+    outline:auto ;
+    outline-style: dotted;
+    width: 240px;
+    margin-right: 24px;
+}
+
+.texto-resultado h2 {
+    text-align: left;
     
 }
 
-.rodape {
-    background-color: #4D0D05;
-    padding: 24px;
+.texto-resultado {
+    flex: 1;
+}
+
+.item-resultado a {
+    font-weight: bold;
+    color: #4D0D05;
+    text-decoration: none;
+    padding-left: 4px;
+    font-size: 14px;
+}
+
+.item-resultado a:hover {
+    color: #c27e75;
+}
+
+footer {
+    background-color: #4D0D0595;
+    padding: 16px;
     color: white;
     position: absolute;
     bottom: 0;
-    width: 100%;
+    font-size: 12px;
+    border-radius: 12px 12px 0 0;
+    margin: 0;
+    align-content: center;
 }
