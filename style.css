@@ -25,42 +25,46 @@ h1 {
 
 h3 {
     font-family: "Julius Sans One", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
     color: #cf7b6f;
+    font-size: 20px;
 }
 
 .barraDeBusca {
     padding: 24px;
+    margin: 0 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .barraDeBusca input {
     border-radius: 16px;
-    padding: 8px 16px;
-    border-style:none;
-    margin: 0 96px;
+    padding: 12px 16px;
+    width: 100%;
+    border: 1px solid #4D0D0500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .barraDeBusca input:focus-visible {
     outline: 0;
+    border: 1px solid #4D0D05;
 }
 
 .barraDeBusca button {
-    padding: 8px 16px;
+    padding: 12px 24px;
     border-radius: 16px;
     border-style: none;
-    margin-left: 4px;
     background-color: #4D0D05;
     color:#EDDFDD;
-    border-width: 0;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .barraDeBusca button:hover {
     background-color: #a7655c;
-}
-
-.resultados {
-
 }
 
 .item-resultado {
@@ -82,10 +86,10 @@ h3 {
 }
 
 .imagem-resultado img{
-    outline:auto ;
-    outline-style: dotted;
+    border:2px dotted #4D0D05;
     width: 240px;
     margin-right: 24px;
+    border-radius: 8px;
 }
 
 .texto-resultado h2 {
@@ -113,10 +117,10 @@ footer {
     background-color: #4D0D0595;
     padding: 16px;
     color: white;
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    left: 0;
+    width: 100%;
     font-size: 12px;
-    border-radius: 12px 12px 0 0;
     margin: 0;
-    align-content: center;
 }

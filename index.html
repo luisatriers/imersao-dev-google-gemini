@@ -18,51 +18,21 @@
     </nav>
     <header>
         <h1>Manual da Primeira Viagem</h1>
-        <h3>Curadoria de todas as informações que você precisará nesta jornada!</h3>
+        <h3>Tudo o que você precisa saber sobre sua próxima jornada!</h3>
     </header>
     <main>
         <section class="barraDeBusca">
-            <form>
-                <input type="text" placeholder="Digite sua busca">
-                <button type="submit">Buscar</button>
-            </form>
+            <input type="text" placeholder="O que você gostaria de saber?" id="campo-pesquisa">
+            <button onclick="pesquisar()">Procurar</button>
         </section>
         <hr>
-        <section class="resultados">
-            <div class="item-resultado">
-                <div class="imagem-resultado">
-                    <img src="https://img.freepik.com/premium-vector/pregnant-woman_748570-151.jpg" alt="Imagem de uma mulher grávida">
-                </div>
-                <div class="texto-resultado">
-                    <h2>Item 1 </h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet arcu scelerisque,
-                    ultricies mi vestibulum, mollis libero. Maecenas porttitor elit ac enim rutrum, sit amet pretium ex
-                    semper. Nullam ut efficitur nibh. Nulla porttitor ipsum id lacus faucibus viverra. Etiam consectetur
-                    quam commodo est posuere, in eleifend est eleifend. Etiam tincidunt congue turpis, eget pretium nisi
-                    elementum pretium. Vestibulum quis volutpat nisl. Aenean vehicula vestibulum dictum. Proin at sapien
-                    diam. Duis eget mattis nibh, quis volutpat elit. <a href="#" target="_blank">Continue Lendo →</a>
-                    </p>
-                </div>
-            </div>
-            <div class="item-resultado">
-                <div class="imagem-resultado">
-                    <img src="https://img.freepik.com/premium-vector/baby-diapers-set-vector-elements_647682-169.jpg" alt="Imagem de fraldas">
-                </div>
-                <div class="texto-resultado">
-                    <h2>Item 2 </h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet arcu scelerisque,
-                    ultricies mi vestibulum, mollis libero. Maecenas porttitor elit ac enim rutrum, sit amet pretium ex
-                    semper. Nullam ut efficitur nibh. Nulla porttitor ipsum id lacus faucibus viverra. Etiam consectetur
-                    quam commodo est posuere, in eleifend est eleifend. Etiam tincidunt congue turpis, eget pretium nisi
-                    elementum pretium. Vestibulum quis volutpat nisl. Aenean vehicula vestibulum dictum. Proin at sapien
-                    diam. Duis eget mattis nibh, quis volutpat elit. <a href="#" target="_blank">Continue Lendo →</a>
-                    </p>
-                </div>
-            </div>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
         </section>
     </main>
     <footer>
-        2024 - Todos os direitos reservados. Desenvolvido por Luisa Triers
+        2024 - © Todos os direitos reservados. Desenvolvido por Luisa Triers
     </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
