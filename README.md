@@ -1,5 +1,8 @@
 # Manual da Primeira Viagem
 #### Curadoria de informações para você que será mãe/pai pela primeira vez!
+
+![capa](img/cover.png)
+
 ## O que é esse projeto?
 
 Esse projeto nasceu de uma dor minha: entrar no mundo da maternidade sem saber absolutamente NADA, e, ao me deparar com a avalanche de informações da internet, ficar mais perdida do que antes (se é que era possível).
