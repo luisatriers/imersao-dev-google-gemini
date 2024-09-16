@@ -23,7 +23,7 @@ Encontrará dicas, informações sobre tudo, desde a gravidez até os marcos mai
 
 ### Como usar esse projeto:
 
-Ele está hospedado na Vercel: https://imersao-dev-google-gemini-liart.vercel.app/
+Ele está hospedado no [GitHub Pages](https://luisatriers.github.io/imersao-dev-google-gemini/)
 
 ## Melhorias futuras:
 
